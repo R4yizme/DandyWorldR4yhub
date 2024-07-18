@@ -24,9 +24,7 @@ tab:AddSlider({
 	Increment = 1,
 	ValueName = "Walk speed",
 	Callback = function(Value)
-        while Wait() do
             table.speed = Value
-        end
 	end    
 })
 
